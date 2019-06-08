@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+<h2>Informacion</h2>
+
+
+         <form action = "/process" method = "post">
+         <p>Insertar DNI :</p>
+         <p><input type = "text" name = "user_input" /></p>
+         <p><input type = "submit" value = "Enviar" /></p>
+         
+         <div class="container">            
+         <p>Cliente: {{cliente}}</p>
+         </div>
+
+         
+          <div><img src={{graph1}} /></img></div>
+          
+         <div class="container">            
+         <p>Respuesta: {{user_input}}</p>
+         </div>
+
+</body>
+</html>
